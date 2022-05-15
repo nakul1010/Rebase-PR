@@ -9,6 +9,11 @@ pub fn hello_yash()
 }
 
 
+pub fn hello_raj()
+{
+    println!("Hello, Raj!");
+}
+
 pub fn hello_shounak()
 {
     println!("Hello, Shounak!");
