@@ -65,6 +65,14 @@ pub fn calculator() {
     println!("Ans : {}",n3);
 }
 
+pub fn calculator() {
+    println!("Enter nos plus operator ");
+    let n1 = 100;
+    let n2 = 200;
+    let n3 = n1 + n2;
+    println!("Ans : {}",n3);
+}
+
 fn main() {
     hello_nakul();
     add_function(3 as i32, 3 as i32);
