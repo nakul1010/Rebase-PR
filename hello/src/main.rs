@@ -26,6 +26,11 @@ pub fn hello_shounak()
     }
 }
 
+pub fn after_rebase()
+{
+    println!("After Rebase");
+}
+
 fn main() {
     hello_nakul();
 }
