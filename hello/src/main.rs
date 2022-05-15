@@ -15,6 +15,10 @@ pub fn hello_shounak()
     for i in 0..100{
         println!("1");
     }
+    println!("Hello, Shounak!");
+    for i in 0..100{
+        println!("1");
+    }
 }
 
 fn main() {
