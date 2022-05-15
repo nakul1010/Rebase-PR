@@ -9,9 +9,26 @@ pub fn hello_yash()
 }
 
 
+pub fn hello_raj()
+{
+    println!("Hello, Raj!");
+}
+
 pub fn hello_shounak()
 {
     println!("Hello, Shounak!");
+    for i in 0..100{
+        println!("1");
+    }
+    println!("Hello, Shounak!");
+    for i in 0..100{
+        println!("1");
+    }
+}
+
+pub fn after_rebase()
+{
+    println!("After Rebase");
 }
 
 fn main() {
