@@ -39,8 +39,12 @@ pub fn hello_shounak()
 pub fn add_function(no1:i32,no2:i32){
     println!("Addition : {}",no1+no2);
 }
+pub fn sub_function(no1:i32,no2:i32){
+    println!("Sub : {}",no1-no2);
+}
 
 fn main() {
     hello_nakul();
     add_function(1 as i32,3 as i32);
+    sub_function(1 as i32,3 as i32);
 }
