@@ -1,36 +1,27 @@
-pub fn hello_nakul()
-{
-    println!("Hello, Nakul!");
-}
 
-pub fn hello_yash()
-{
-    println!("Hello, Yash!");
-}
+pub fn calculator() {
+    println!("Enter nos plus operator ");
+    let n1 = 100;
+    let n2 = 200;
+    let operator = String::from("+");
 
-
-pub fn hello_raj()
-{
-    println!("Hello, Raj!");
-}
-
-pub fn hello_shounak()
-{
-    println!("Hello, Shounak!");
-    for i in 0..100{
-        println!("1");
+    if operator == "+".to_string(){
+        println!("{} + {} = {}",n1,n2,n1+n2);
     }
-    println!("Hello, Shounak!");
-    for i in 0..100{
-        println!("1");
+    
+    else if operator == "-".to_string(){
+        println!("{} - {} = {}",n1,n2,n1-n2);
     }
-}
 
-pub fn after_rebase()
-{
-    println!("After Rebase");
+    else if operator == "*".to_string(){
+        println!("{} * {} = {}",n1,n2,n1*n2);
+    }
+
+    else if operator == "/".to_string(){
+        println!("{} / {} = {}",n1,n2,n1/n2);
+    }
 }
 
 fn main() {
-    hello_nakul();
+    calculator();
 }
