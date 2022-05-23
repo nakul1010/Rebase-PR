@@ -9,8 +9,12 @@ pub fn calculator() {
         println!("{} + {} = {}",n1,n2,n1+n2);
     }
     
-    else if operator == "*".to_string(){
-        println!("{} * {} = {}",n1,n2,n1*n2);
+    else if operator == "-".to_string(){
+        println!("{} - {} = {}",n1,n2,n1-n2);
+    }
+
+    else if operator == "-".to_string(){
+        println!("{} - {} = {}",n1,n2,n1-n2);
     }
 
     else if operator == "-".to_string(){
