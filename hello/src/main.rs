@@ -22,6 +22,10 @@ pub fn calculator() {
     }
 }
 
+pub fn hello_world() {
+    println!("Hello World");
+}
+
 fn main() {
     calculator();
 }
