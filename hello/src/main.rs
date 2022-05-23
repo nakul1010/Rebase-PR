@@ -9,8 +9,8 @@ pub fn calculator() {
         println!("{} + {} = {}",n1,n2,n1+n2);
     }
     
-    else if operator == "-".to_string(){
-        println!("{} - {} = {}",n1,n2,n1-n2);
+    else if operator == "*".to_string(){
+        println!("{} * {} = {}",n1,n2,n1*n2);
     }
 
     else if operator == "*".to_string(){
@@ -25,6 +25,18 @@ pub fn calculator() {
 pub fn hello_world() {
     println!("Hello World");
 }
+
+pub fn addition_of_two_nos(n1:i32,n2:i32)
+{
+    println!("{} + {} = {}",n1,n2,n1+n2);
+}
+
+
+pub fn subtract_of_two_nos(n1:i32,n2:i32)
+{
+    println!("{} - {} = {}",n1,n2,n1-n2);
+}
+
 
 fn main() {
     calculator();
