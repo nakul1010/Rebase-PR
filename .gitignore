@@ -1,2 +1,9 @@
 /target
 /hello/target
+/hello/cargo.lock
+/calculator/target
+/calculator/cargo.lock
+/hello_nakul/target
+/hello_nakul/cargo.lock
+/hello_polkadex/target
+/hello_polkadex/cargo.lock
