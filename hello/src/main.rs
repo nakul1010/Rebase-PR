@@ -9,12 +9,16 @@ pub fn calculator() {
         println!("{} + {} = {}",n1,n2,n1+n2);
     }
     
-    else if operator == "*".to_string(){
-        println!("{} * {} = {}",n1,n2,n1*n2);
+    else if operator == "-".to_string(){
+        println!("{} - {} = {}",n1,n2,n1-n2);
     }
 
-    else if operator == "*".to_string(){
-        println!("{} * {} = {}",n1,n2,n1*n2);
+    else if operator == "-".to_string(){
+        println!("{} - {} = {}",n1,n2,n1-n2);
+    }
+
+    else if operator == "-".to_string(){
+        println!("{} - {} = {}",n1,n2,n1-n2);
     }
 
     else if operator == "/".to_string(){
@@ -26,22 +30,40 @@ pub fn hello_world() {
     println!("Hello World");
 }
 
-pub fn addition_of_two_nos(n1:i32,n2:i32)
+pub fn multiply_of_two_nos(n1:i32,n2:i32)
 {
-    println!("{} + {} = {}",n1,n2,n1+n2);
+    println!("{} * {} = {}",n1,n2,n1*n2);
 }
 
-
-pub fn subtract_of_two_nos(n1:i32,n2:i32)
+pub fn multiply_of_three_nos(n1:i32,n2:i32,n3:i32)
 {
-    println!("{} - {} = {}",n1,n2,n1-n2);
+    println!("{} * {} * {} = {}",n1,n2,n3,n1*n2*n3);
 }
 
-pub fn add_of_three_nos(n1:i32,n2:i32,n3:i32)
+pub fn divide_of_two_nos(n1:i32,n2:i32)
 {
-    println!("{} + {} + {} = {}",n1,n2,n3,n1+n2+n3);
+    println!("{} / {} = {}",n1,n2,n1/n2);
 }
 
+pub fn sub_of_three_nos(n1:i32,n2:i32,n3:i32)
+{
+    println!("{} - {} - {} = {}",n1,n2,n3,n1-n2-n3);
+}
+
+pub fn multiply_of_two_nos(n1:i32,n2:i32)
+{
+    println!("{} * {} = {}",n1,n2,n1*n2);
+}
+
+pub fn multiply_of_three_nos(n1:i32,n2:i32,n3:i32)
+{
+    println!("{} * {} * {} = {}",n1,n2,n3,n1*n2*n3);
+}
+
+pub fn divide_of_two_nos(n1:i32,n2:i32)
+{
+    println!("{} / {} = {}",n1,n2,n1/n2);
+}
 fn main() {
     calculator();
 }
